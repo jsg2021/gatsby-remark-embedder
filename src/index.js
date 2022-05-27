@@ -2,7 +2,7 @@ import parse5 from 'parse5';
 import fromParse5 from 'hast-util-from-parse5';
 import visit from 'unist-util-visit';
 
-import { defaultTransformers } from './transformers';
+import { defaultTransformers } from './transformers/index.js';
 
 // results in an AST node of type "root" with a single "children" node of type "element"
 // so we return the first (and only) child "element" node

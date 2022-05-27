@@ -1,4 +1,4 @@
-import { getTrimmedPathName } from './utils';
+import { getTrimmedPathName } from './utils/index.js';
 
 const isBoard = (trimmedPathName) => trimmedPathName.split('/').length === 2;
 const isPin = (trimmedPathName) => trimmedPathName.includes('pin/');

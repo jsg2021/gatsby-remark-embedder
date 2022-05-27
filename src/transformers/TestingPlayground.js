@@ -1,4 +1,4 @@
-import { getTrimmedPathName } from './utils';
+import { getTrimmedPathName } from './utils/index.js';
 
 export const shouldTransform = (url) => {
   const { host, pathname } = new URL(url);

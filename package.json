@@ -35,11 +35,13 @@
     "url": "https://github.com/MichaelDeBoey/gatsby-remark-embedder/issues"
   },
   "homepage": "https://github.com/MichaelDeBoey/gatsby-remark-embedder#readme",
+  "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "./require.entry.cjs"
   ],
   "scripts": {
-    "build": "kcd-scripts build",
     "lint": "kcd-scripts lint",
     "setup": "npm install && npm run validate -s",
     "test": "kcd-scripts test",

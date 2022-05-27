@@ -1,4 +1,4 @@
-import { getTrimmedPathName } from './utils';
+import { getTrimmedPathName } from './utils/index.js';
 
 const isSubDomain = (host) => /^([a-zA-Z0-9-_]{2,}\.)?slides\.com$/.test(host);
 

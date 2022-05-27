@@ -1,4 +1,4 @@
-import { includesSomeOfArray } from './utils';
+import { includesSomeOfArray } from './utils/index.js';
 
 export const shouldTransform = (url) => {
   const { host, pathname } = new URL(url);

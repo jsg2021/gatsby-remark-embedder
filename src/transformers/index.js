@@ -1,17 +1,17 @@
-import * as CodePenTransformer from './CodePen';
-import * as CodeSandboxTransformer from './CodeSandbox';
-import * as GIPHYTransformer from './GIPHY';
-import * as InstagramTransformer from './Instagram';
-import * as LichessTransformer from './Lichess';
-import * as PinterestTransformer from './Pinterest';
-import * as SlidesTransformer from './Slides';
-import * as SoundCloudTransformer from './SoundCloud';
-import * as SpotifyTransformer from './Spotify';
-import * as StreamableTransformer from './Streamable';
-import * as TestingPlaygroundTransformer from './TestingPlayground';
-import * as TwitchTransformer from './Twitch';
-import * as TwitterTransformer from './Twitter';
-import * as YouTubeTransformer from './YouTube';
+import * as CodePenTransformer from './CodePen.js';
+import * as CodeSandboxTransformer from './CodeSandbox.js';
+import * as GIPHYTransformer from './GIPHY.js';
+import * as InstagramTransformer from './Instagram.js';
+import * as LichessTransformer from './Lichess.js';
+import * as PinterestTransformer from './Pinterest.js';
+import * as SlidesTransformer from './Slides.js';
+import * as SoundCloudTransformer from './SoundCloud.js';
+import * as SpotifyTransformer from './Spotify.js';
+import * as StreamableTransformer from './Streamable.js';
+import * as TestingPlaygroundTransformer from './TestingPlayground.js';
+import * as TwitchTransformer from './Twitch.js';
+import * as TwitterTransformer from './Twitter.js';
+import * as YouTubeTransformer from './YouTube.js';
 
 export const defaultTransformers = [
   CodePenTransformer,

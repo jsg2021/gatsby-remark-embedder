@@ -1,4 +1,4 @@
-import { fetchOEmbedData } from './utils';
+import { fetchOEmbedData } from './utils/index.js';
 
 const isMediaSubDomain = (host) => /^(media([0-9]+)?\.)giphy\.com$/.test(host);
 

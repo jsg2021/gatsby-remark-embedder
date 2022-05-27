@@ -1,4 +1,4 @@
-import { fetchOEmbedData, getTrimmedPathName } from './utils';
+import { fetchOEmbedData, getTrimmedPathName } from './utils/index.js';
 
 const ignoredPaths = [
   '/documentation',

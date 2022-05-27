@@ -1,4 +1,4 @@
-import { getTrimmedPathName } from './utils';
+import { getTrimmedPathName } from './utils/index.js';
 
 const getUrlConfig = (url) => {
   const { host, pathname, searchParams } = new URL(url);

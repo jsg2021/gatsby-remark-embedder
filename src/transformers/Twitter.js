@@ -1,4 +1,4 @@
-import { fetchOEmbedData, includesSomeOfArray } from './utils';
+import { fetchOEmbedData, includesSomeOfArray } from './utils/index.js';
 
 export const shouldTransform = (url) => {
   const { host, pathname } = new URL(url);
