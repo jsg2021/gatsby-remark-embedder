@@ -37,9 +37,8 @@
   "homepage": "https://github.com/MichaelDeBoey/gatsby-remark-embedder#readme",
   "type": "module",
   "files": [
-    "dist",
     "src",
-    "./require.entry.cjs"
+    "require.entry.cjs"
   ],
   "scripts": {
     "lint": "kcd-scripts lint",
