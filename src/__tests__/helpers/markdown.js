@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs';
-import remark from 'remark';
+import {remark} from 'remark';
 import remarkHtml from 'remark-html';
 
 const getFixturesPath = (isCustomTransformer) =>

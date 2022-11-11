@@ -1,0 +1,10 @@
+{
+  "extends": "./node_modules/kcd-scripts/eslint.js",
+  "rules": {
+    "import/default": "off",
+    "import/no-import-module-exports": [
+      "error",
+      { "exceptions": ["**/src/index.js"] }
+    ]
+  }
+}

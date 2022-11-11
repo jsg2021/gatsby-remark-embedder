@@ -16,7 +16,7 @@ export const fetchOEmbedData = (url) =>
 
       return response;
     })
-    .then((data) => data.json());
+    .then((data) => data.clone().json());
 
 export const getTrimmedPathName = (pathname) =>
   // Trim leading and trailing slashes

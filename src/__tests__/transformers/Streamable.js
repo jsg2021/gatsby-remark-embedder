@@ -14,9 +14,7 @@ const { Response } = jest.requireActual('node-fetch');
 jest.mock('node-fetch', () => jest.fn());
 
 const mockFetch = (html) =>
-  fetchMock.mockImplementation(() =>
-    Promise.resolve(new Response(JSON.stringify({ html })))
-  );
+  fetchMock.mockResolvedValue(new Response(JSON.stringify({ html })));
 
 beforeEach(() => {
   fetchMock.mockClear();
