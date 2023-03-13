@@ -19,7 +19,7 @@ const getUrlString = (url) => {
   }
 };
 
-module.exports = async (
+export default async (
   { cache, markdownAST },
   { customTransformers = [], services = {} } = {}
 ) => {

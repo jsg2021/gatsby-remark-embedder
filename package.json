@@ -2,6 +2,7 @@
   "name": "gatsby-remark-embedder",
   "version": "0.0.0-semantically-released",
   "description": "Gatsby Remark plugin to embed well known services by their URL.",
+  "type": "module",
   "main": "./require.entry.cjs",
   "exports": {
     ".": {
@@ -42,7 +43,6 @@
     "url": "https://github.com/MichaelDeBoey/gatsby-remark-embedder/issues"
   },
   "homepage": "https://github.com/MichaelDeBoey/gatsby-remark-embedder#readme",
-  "type": "module",
   "files": [
     "src",
     "require.entry.cjs"
